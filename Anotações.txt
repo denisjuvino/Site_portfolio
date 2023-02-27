@@ -1,0 +1,17 @@
+Curso Concluido
+
+------------------------------------------------------------
+Colocamos no arquivo de origem:
+
+@section('content')
+Hola Develoteca
+@endsection
+
+E colocamos no local onde queremos adicionar a frase:
+
+@yield('content')
+
+Dessa forma a frase Hola Develoteca será adicionada no local.
+
+------------------------------------------------------------
+
